@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    perspective: 800px;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: orange;
+    cursor: pointer;
+    transition: all 3s;
+    /* transform: translate(200px,300px); */
+    /* transform: rotate(30deg); */
+    /* transform: skewX(30deg); */
+    /* transform: skewy(30deg); */
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    animation-name: moving;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes moving {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+/* .box:hover{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    transform: scale(2);
+    transform: scaleX(2);
+    transform: scaleY(2);
+    transform: translate(100px,-50px);
+    transform: translate(100px,50px);
+    transform: translateX(300px);
+    transform: translateY(300px);
+    transform: translateZ(200px);
+    transform: rotate(90deg);
+    transform: rotateX(90deg);
+    transform: rotateY(90deg);
+    transform: rotateZ(90deg);
+} */

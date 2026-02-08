@@ -1,0 +1,57 @@
+/* span{
+    color: blue;
+} */
+
+/* *{
+    margin: 10px;
+    padding: 5px;
+} */
+
+h1{
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+    
+    margin: 50px;
+    /* display: inline; */
+    /* display: inline-block; */
+
+    border: 10px solid red;
+    padding: 20px;
+
+    box-sizing: content-box;
+}
+
+h2{
+    background-color: brown;
+    margin: 10px;
+    padding: 10px;
+    height: 300px;
+    width: 300px;
+    /* display: inline; */
+    /* display: inline-block; */
+
+    border: 10px solid blue;
+    padding: 20px;
+
+    box-sizing: border-box;
+}
+
+span{
+    background-color: pink;
+    height: 200px;
+    width: 300px;
+    /* padding: 5px; */
+    /* margin: 5px; */
+    /* margin-top: 50px; /* Nothing happens */
+    /* margin-bottom: 50px; /* Nothing happens */
+    margin-left: 20px;
+    margin-right: 20px;
+
+    /* padding-top: 50px; /* Nothing happens */ 
+    /* padding-bottom: 50px; /* Nothing happens */
+    padding-left: 20px;
+    padding-right: 20px;
+    /* display: block; */
+
+}

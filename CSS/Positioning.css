@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    background-color: red;
+    position: fixed;
+    top: 50px;
+    z-index: 10;
+}
+
+h2{
+    background-color: aqua;
+    position: relative;
+    top: 80px;
+    /* left: 100px; */
+}
+
+h3{
+    background-color: beige;
+    position: sticky;
+    top: 10px;
+}
+
+p{
+    background-color: antiquewhite;
+    position: absolute;
+    left: 10px;
+    top: 100px;
+}

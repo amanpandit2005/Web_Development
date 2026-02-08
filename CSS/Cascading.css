@@ -1,0 +1,27 @@
+h1{
+    background-color: aqua;
+}
+
+#first{
+    background-color: brown;
+}
+
+/* #first{
+    background-color: red;
+    background-color: wheat;
+} */
+
+/* .classA{
+    background-color: green;
+} */
+
+
+/* h1{
+    background-color: pink;
+}
+
+h2{
+    background-color: blueviolet !important;
+} */
+
+/* Priority: !important > Inline > id > class > Tag > Ordering in case of Tie (Same element but more than one same style) */

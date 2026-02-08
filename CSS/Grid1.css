@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+body{
+    background-color: black;
+}
+.container{
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr; 
+    /* fr : to prevent overflow, automatically adjusts according to div space. */
+    /* grid-template-rows: 200px 200px 200px; */
+    /* grid-template-columns: 200px 200px 200px; */
+    gap: 10px;
+    height: 600px;
+    width: 600px;
+    background-color: red;
+
+}
+.box{
+    background-color: chartreuse;
+}

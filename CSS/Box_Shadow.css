@@ -1,0 +1,17 @@
+.container{
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+    /* box-shadow: 10px 10px red; */
+    /* box-shadow: -10px -10px red; */
+
+    /* box-shadow: 10px 10px 50px red; */
+     /* For Blur effect  */
+
+     /* box-shadow: inset 10px 10px red; */
+
+     box-shadow: 10px 10px 50px 20px red;
+     /* Spread shadow radius across all directions */
+
+     /* offset x , offset y , blur radius , spread radius */
+}

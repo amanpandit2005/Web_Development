@@ -1,0 +1,74 @@
+*{
+    height: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.container{
+    padding: 20px;
+    position: relative;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: greenyellow;
+    animation-name: MoveChange;
+    animation-duration: 10s;
+
+    /* animation-iteration-count: 3; */
+    animation-iteration-count: infinite;
+
+    /* animation-timing-function: linear; */
+    /* animation-direction: alternate; */
+
+    /* animation-delay: 2s; */
+
+    /* animation-fill-mode: forwards; */
+    /* animation-fill-mode: backwards; */
+
+    /* animation-timing-function: ease-in; */
+    animation-timing-function: ease-in-out;
+    /* animation-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1) ; */
+    
+    position: absolute;
+}
+/* @keyframes MoveChange {
+    from{
+        background-color: orange;
+        top: 10px;
+        left: 10px;
+    }
+    to{
+        background-color: rgb(244, 0, 0);
+        top: 10px;
+        left: 1250px;
+    }
+} */
+
+@keyframes MoveChange {
+    0%{
+        background-color: orange;
+        top: 10px;
+        left: 10px;
+    }
+    25%{
+        background-color: rgb(239, 116, 116);
+        top: 10px;
+        left: 1250px;
+    }
+    50%{
+        background-color: rgb(241, 58, 41);
+        top: 500px;
+        left: 1250px;
+    }
+    75%{
+        background-color: rgb(233, 41, 41);
+        top: 500px;
+        left: 10px;
+    }
+    100%{
+        background-color: rgb(104, 4, 4);
+        top: 10px;
+        left: 10px;
+    }
+}

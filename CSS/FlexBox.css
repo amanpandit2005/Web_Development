@@ -1,0 +1,52 @@
+.container{
+    background-color: antiquewhite;
+    display: flex;
+    height: 600px;
+    flex-direction: row;
+    /* flex-direction: column;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse; */
+    
+    /* justify-content: space-around; */
+    /* justify-content: space-between;
+    justify-content: space-evenly; */
+
+    justify-content: center;
+
+    align-items: center;
+    /* align-items: end; */
+
+    gap: 15px;
+    flex-wrap: wrap;
+
+    /* justify-content : works around Main Axis.
+    Axis towards flex direction is Main Axis. */
+
+    /* align-items : works around Cross Axis.
+    Axis perpendicular to Main Axis is Cross Axis. */
+}
+.box{
+    height: 100px;
+    width: 100px;
+    /* margin: 15px; */
+}
+.first{
+    background-color: orange;
+    /* flex-grow: 1; */
+    /* flex-basis: 200px; */
+
+    /* flex-basis :  Increases/Decreases Height/Width along Main Axis.*/
+}
+.second{
+    background-color: red;
+    /* flex-grow: 2; */
+    /* flex-shrink: 5; */
+}
+.third{
+    background-color: green;
+    /* align-self: flex-start; */
+    /* align-self: flex-end; */
+}
+.fourth{
+    background-color: yellow;
+}

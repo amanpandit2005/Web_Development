@@ -1,0 +1,56 @@
+.container{
+    background-color: chartreuse;
+    font-size: 50px;
+    height: 400px;
+    width: 500px;
+}
+/* @media screen and (max-width:900px) {
+    .container{
+        font-size: 20px;
+        background-color: aqua;
+    }
+} */
+
+/* @media screen and (max-width:600px) {
+    .container{
+        height: 300px;
+        width: 200px;
+        font-size: 20px;
+        background-color: red;
+    }
+} */
+
+/* @media screen and (max-width:900px) {
+    .container{
+        font-size: 20px;
+        background-color: aqua;
+    }
+} */
+
+/* @media screen and (min-width:400px) {
+    .container{
+        height: 500px;
+        width: 600px;
+        font-size: 60px;
+        background-color: orange;
+    }
+} */
+
+@media screen and (min-width:400px) {
+    .container{
+        font-size: 20px;
+        background-color: orange;
+    }
+}
+@media screen and (min-width:600px) {
+    .container{
+        font-size: 40px;
+        background-color: burlywood;
+    }
+}
+@media screen and (min-width:800px) {
+    .container{
+        font-size: 60px;
+        background-color: green;
+    }
+}

@@ -1,0 +1,73 @@
+/* Normal Selection */
+
+/* h1{
+    background-color: pink;
+    text-align: center;
+    font-size: 50;
+}
+ul{
+    background-color: beige;
+} */
+
+/* I'd/# based Selection */
+
+/* #first{
+    background-color: aquamarine;
+}
+#second{
+    background-color: blueviolet;
+} */
+
+/* Class/. based Selection */
+
+/* .third{
+    background-color: antiquewhite;
+} */
+
+/* Group based Selection */
+
+/* h1 , .third{
+    background-color: rgba(116, 219, 176, 0.389);
+} */
+
+h2{
+    background-color: hsl(110, 50%, 50%,0.4);
+}
+h1{
+    background-color: #627898;  /* HexaDecimal */
+    font-size: 7em;
+    /* Google font link */
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* 3em means 3 times of Parent Element Size (Parent -> code me uske Just upar wali line e.g. h1 -> <body> )*/
+
+ul{
+    font-size: 60px;
+}
+
+/* li{
+    font-size: 1em;  
+} */
+/* li ka parent -> ul*/
+
+html{
+    font-size: 10px;
+}
+
+/* h2{
+    font-size: 2rem; 
+} */  
+ /* 2rem means 2 times of root element i.e 2 times of <html> size */
+
+h2{
+    font-size: 5vh;
+}  
+/* 2vw/2vh means 2% of wiew port width/height i.e. 2% of screen width/height */
+
+li{
+    font-size: 50%;
+}
+/* 50% means 50% of Parent Element Size */

@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    height: 700px;
+    width: 1vp;
+    gap: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.box{
+    background-color: rgb(24, 137, 63);
+}
+.first{
+    grid-row: 1/4;
+}
+.second{
+    grid-column: 2/4;
+}
+.fourth, .eighth{
+    background-color: rgb(238, 195, 0);
+}
+.third, .fifth, .seventh{
+    background-color: red;
+}
+.sixth{
+    grid-row: 2/4;
+    grid-column: 4;
+}
